@@ -1,0 +1,705 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <style>
+   p{
+       font-family:Roboto,sans-serif;
+          font-weight:500;
+          font-style:normal;
+   }
+        
+            .K2{
+               display:inline-block;
+             width:200px;
+             height:200px;
+        
+             
+            }
+            .KL3{
+                display:grid;
+grid-template-columns:39px 1fr;
+            }
+            
+            .KI{
+            width:100%;
+            object-fit:contain;
+        border:none;
+            border-radius:100px;
+        
+            
+            }
+
+        .K5{
+            font-size:13px;
+            font-weight:600;
+            margin-top:0px;
+            padding:1px;
+        }
+       .K6,.K7{
+          
+           font-size:12px;
+           color:rgb(96,96,96);
+           
+       } 
+       .K7{
+           line-height:15px;
+           margin-top:0px;
+           margin-bottom:5px;
+          
+       }
+       .K6{
+           margin-bottom:0px;
+       }
+       .video-grid{
+           display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+      column-gap:20px;
+      row-gap:40px;
+
+       }
+      
+        .K99{
+            margin-left:3px;
+        } 
+     .header{
+         display: flex;
+        justify-content:space-between;
+
+         flex-direction:row;
+         height: 55px;
+         margin-bottom:10px;
+         position:fixed;
+         top:0px;
+         right: 0px;
+         left: 0px;
+        opacity:1;
+        background-color:white;
+        z-index:1;
+        
+         
+     }
+       body{
+           
+           padding-top:80px;
+           padding-bottom:5000px;
+           padding-left:90px;
+    background-color:rgb(254.5,254.5,254.5);
+          padding-right:200px; 
+       }
+       
+           
+       .Logo{ 
+             display:flex;
+             justify-content:space-between;
+             align-items:center;
+           margin-right:70px;
+       }
+       
+       
+       .KS{
+   
+           flex:1;
+         max-width:500px;
+         display:flex;
+         align-items:center;
+         
+       }
+       
+       .Login{
+          
+           width:300px;
+           margin-left:35px;
+           display:flex;
+           flex-direction:row;
+           align-items:center;
+           justify-content:space-between;
+           flex-shrink:0;
+          
+       }
+       .Img1{
+           width:20px;
+           height:30px;
+           margin-left:30px;
+       }    
+       .Img2{
+           widows:30px;
+           height:20px;
+           margin-left:20px;
+       }
+       .B1{
+           height:23px;
+           width:30px;
+           border-left:none;
+        border-width:0.5px;
+    
+        background-color:white;
+    border-color:rgb(192,192,192);
+        
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    
+       }
+        .B2{
+           height:30px;
+           width:30px;
+           border-radius:20px;
+           border-width:0.5px;
+           margin-left:1px;
+           background-color:white;
+           border:none;
+           margin-top:3px;
+       }
+       .search-bar{
+           display:flex;
+           flex-direction:row;
+           flex:1;
+       }
+       .searchbox{
+      display:flex;
+           flex-direction:row;
+           flex:1;
+           height:20px;
+           border-right:none;
+         border-width:0.5px; 
+         border-color:rgb(192,192,192);
+         font-size:16px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px ;
+         box-shadow:inset 1px 2px 2px rgba(0,0,0,0.005);
+         outline:none;
+         outline-color:rgb(192,192,192);
+         margin-right:-1px;
+         width:0;
+       }
+       .searchbox::placeholder{
+           padding-left:10px;
+           font-size:16px;
+       }
+       .searchbox:hover{
+            border-width:0.5px; 
+         border-color:rgb(192,192,192);
+       }
+       .Img3{
+           height:24px;
+       }
+     
+       
+     .Img4{
+           height:24px;
+           position:relative;
+       }
+       .I1{
+           border-radius:8px;
+       }
+     .Img5{
+           height:24px;
+       }
+    .Img6{
+           height:32px;
+           border: none;
+           border-radius:16px;
+       }
+      .sidebar{
+          display:flex;
+          flex-direction:column;
+          position:fixed;
+          top:56px;
+          left:0px;
+          bottom:0px;
+          width:72px;
+          background-color:white;
+          align-items:center;
+          
+          
+          
+      }
+      .L19{
+          position:relative;
+      }
+      .F1{
+          position:absolute;
+          right:5px;
+          top:80px;
+          font-size:12px;
+          color:rgb(240,240,240);
+    background-color:rgb(-1,-1,-1);
+          display:inline-block;
+           padding:1px 2px;
+           border-radius: 3px;
+      }
+      .F2{
+         position:absolute;
+          right:75.5px;
+          top:8px;
+          font-size:7px;
+          color:rgb(240,240,240);
+    background-color:rgb(225,30,30);
+          display:inline-block;
+           padding: 5px 5px;
+           border-radius:50px;
+           object-fit:cover;
+      }
+      .H1{
+          height: 25px ;
+        
+        margin-right:3px;
+          margin-top:10px;
+         
+      }
+      .H3{
+          height: 25px ;
+         
+    
+          margin-top:5px;
+         
+      }
+      .H4{
+          height: 25px ;
+          margin-left:15px;
+        
+          margin-top:10px;
+          
+      }
+      .H5{
+          height: 25px ;
+         
+         margin-left:2px;
+          margin-top:10px;
+         
+      }
+      .H6{
+          height: 25px;
+          margin-top:10px;
+        margin-right:2px;
+          
+      }
+      .H2{
+          
+          font-size:10px;
+      }
+      .H9{
+            
+        
+        
+          
+         
+      }
+        </style>
+        
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+        
+        
+    </head>
+    
+      <body>
+        
+        <div class="header">
+            
+<div class="Logo">
+       <div>
+      <img class="Img1" src="file:///storage/emulated/0/Projects/YouTubeIcons/hamburger-menu.svg">
+       </div>
+
+       <div>
+       <img class="Img2" src="file:///storage/emulated/0/Projects/YouTubeIcons/youtube-logo.svg"> 
+       </div>
+</div>
+    
+    
+<div class="KS">
+        <div class="search-bar">
+            
+ <input class="searchbox" type="textbox" placeholder="Search">
+         </div>
+         <div>
+        <button class="B1">
+    <img src="file:///storage/emulated/0/Projects/YouTubeIcons/search.svg">
+        </button>
+
+         </div>
+         <div>
+             <button class="B2">
+        <img src="file:///storage/emulated/0/Projects/YouTubeIcons/voice-search-icon.svg">
+             </button>
+         </div>
+
+</div>
+    
+   <div class="Login">
+       <div>
+          <img class="Img3" src="file:///storage/emulated/0/Projects/YouTubeIcons/1200px-Chromecast_cast_button_icon.svg.png">
+       </div>
+       <div>
+           <img class="Img3" src="file:///storage/emulated/0/Projects/YouTubeIcons/upload.svg">
+           </div>
+      <div>
+         <img class="Img4"
+         src="file:///storage/emulated/0/Projects/YouTubeIcons/youtube-apps.svg">
+         <p class="F2"></p>
+      </div>
+     <div>   
+     <img class="Img5" src="file:///storage/emulated/0/Projects/YouTubeIcons/notifications.svg">
+     </div>
+
+    <div>
+    <img class="Img6" src="file:///storage/emulated/0/Download/unnamed (1).jpg">
+    </div>
+
+   </div>
+        
+        </div>
+        <div class="sidebar">
+            <div>
+        <img class="H1" src="file:///storage/emulated/0/Projects/YouTubeIcons/home.svg">
+       <p class="H9"></p>
+            </div>
+            
+     <div>
+        <img class="H3" src="file:///storage/emulated/0/Pictures/17d21878c22fe49e7e4752eecaa36541.png">
+        <p class="H2">Shorts</p>
+    </div>
+    
+            <div>
+        <img class="H4" src="file:///storage/emulated/0/Projects/YouTubeIcons/subscriptions.svg">
+    <p class="H2">Subscriptions</p>
+            </div>
+
+            <div>
+        <img class="H5" src="file:///storage/emulated/0/Projects/YouTubeIcons/explore.svg">
+        <p class="H2">Explore</p>
+            </div>
+            
+            <div>
+        <img onclick="location.href=''" class="H6" src="file:///storage/emulated/0/Projects/YouTubeIcons/library.svg">
+        <p class="H2">You</p>
+            </div>
+            
+            </div>
+        
+          <div class="video-grid">
+     <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=n2RNcPRtAiY&t=2s&pp=ygUydGFsa2luZyB0ZWNoIGFuZCBhaSB3aXRoIGdvb2dsZSBjZW8gc3VuZGFyIHBpY2hhaSA='">
+              <div class="L19">
+                
+           <img class="I1" src="file:///storage/emulated/0/Projects/Images/thumbnail-1.webp"
+           style="width:100%; 
+           object-fit:contain;">
+           
+          <p class="F1">14:25</p>
+         
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Projects/Images/channel-1.jpeg">
+            </div>   
+             
+           
+             <div class="K99">
+                 
+        <p class="K5" style="margin-bottom:0px;">Talking Tech and Ai with google CEO Sundar Pichai</p>
+        
+ <p class="K6" style="margin-top:10px;"> Marques Brownlee&check;</p>
+ 
+        <p class="K7"> 6&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+        <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=BzynYwGx-qg'">
+              <div class="L19">
+           <img class="I1"  src="file:///storage/emulated/0/Download/hq720.webp"
+           style="width:100%; 
+           object-fit:contain;">
+        <p class="F1">20:25</p>
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Download/unnamed.jpg">
+            </div>   
+             
+           
+             <div class="K99">
+                 
+    <p class="K5" style="margin-bottom:0px;">Neuroscientist:Try This for 1 day!You wont regret it!</p>
+        
+ <p class="K6" style="margin-top:2px;"> Motivation Madness&check;</p>
+ 
+        <p class="K7"> 9&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+     <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=n4A5eRNyMrE&t=748s&pp=ygUQaGVhbHRoeSBnYW1lciBnZw=='">
+              <div class="L19">
+           <img class="I1"  src="file:///storage/emulated/0/Download/hq720 (1).webp"
+           style="width:100%; 
+           object-fit:contain;">
+        <p class="F1">34:25</p>
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Download/YouTube.clone1-main/channels4_profile.jpg">
+            </div>   
+             
+           
+             <div class="K99">
+                 
+      <p class="K5" style="margin-bottom:0px;">Why You need to be More Adaptable!</p>
+        
+ <p class="K6" style="margin-top:5px;"> HealthygamerGG&check;</p>
+ 
+        <p class="K7"> 16&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+    <p style="display:none;"></p>
+        
+     <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=cp00096p2uE&pp=ygUndHJ5IG5vdCB0byBsYXVnaCBjaGFsbGVuZ2UgbWFya2lwbGllciA4'">
+              <div class="L19">
+           <img class="I1" src="file:///storage/emulated/0/Projects/Images/thumbnail-2.webp"
+           style="width:100%; 
+           object-fit:contain;">
+    <p class="F1">10:25</p>
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Projects/Images/channel-2.jpeg">
+            </div>   
+             
+           
+             <div class="K99" >
+  <p class="K5" style="margin-bottom:0px;">Try not to Laugh Challenge #8</p>
+<p class="K6" style="margin-top:5px;">Markiplier&check;</p>
+ <p class="K7"> 6&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+        <p style="display:none;"></p>
+          
+          <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=TSBd_Ku1Zf0&t=834s&pp=ygUQaGVhbHRoeSBnYW1lciBnZw=='">
+              <div class="L19">
+           <img class="I1" src="file:///storage/emulated/0/Download/hq720 (2).webp"
+           style="width:100%; 
+           object-fit:contain;">
+          <p class="F1">39:25</p>
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Download/YouTube.clone1-main/channels4_profile.jpg">
+            </div>   
+             
+           
+             <div class="K99" >
+      <p class="K5" style="margin-bottom:0px;" >Why Your thought aren't your enemy!</p>
+        <p class="K6" style="margin-top:;"> HealthygamerGG&check;</p>
+        <p class="K7"> 19&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+      <p style="display:none;"></p>
+      
+      
+          <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=-lHXZk5M6cI&list=PL0nG6hiZ_hpLuDboameXm-w0XuTPRIgyk&index=3&pp=gAQBiAQB'">
+              <div class="L19">
+           <img class="I1"  src="file:///storage/emulated/0/Download/hqdefault.webp"
+           style="width:100%;
+           height:115px;
+           object-fit:cover;">
+          <p class="F1">31:25</p>
+           </div>
+            <div class="KL3">
+            <div>
+        <img class="KI" src="file:///storage/emulated/0/Download/channels4_profile.jpg">
+            </div>   
+             
+           
+             <div class="K99" >
+        <p class="K5" style="margin-bottom:0px;"> Truth: Semiconductors are Different From Conductors and Insulators.</p>
+        <p class="K6" style="margin-top:2px;"> ProjectsInFlight&check;</p>
+        <p class="K7"> 26&period;4M veiws 6 Months ago</p>
+             
+              </div>
+          </div>
+        </div>
+        
+    <p style="display:none;"></p>
+    
+          <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=bHIhgxav9LY&list=PL0nG6hiZ_hpLuDboameXm-w0XuTPRIgyk&index=2&t=28s&pp=gAQBiAQB'">
+              <div class="L19">
+        <img class="I1"  src="file:///storage/emulated/0/Download/hqdefault.jpg" style="width:100%;
+        height:115px;
+        object-fit:cover;"> 
+        <p class="F1">23:25</p>
+              </div>
+         <div class="KL3">
+             <div>
+        <img class="KI" src="file:///storage/emulated/0/Download/YouTube.clone1-main/channel-4.jpeg" style="height:;">
+             </div>
+        <div class="K99" >
+        <p class="K5" style="margin-bottom:0px;">The Biggest Misconception about Electricity</p>
+        <p class="K6" style="margin-top:2px;"> Veritasium&check;</p>
+        <p class="K7"> 19&period;4M veiws 6 Months ago</p>
+             
+        </div>
+         </div>     
+          </div>
+          
+    <p style="display:none;"></p>          
+          <div class="K2" onclick="location.href='https://m.youtube.com/watch?v=UPrkC1LdlLY&t=10s&pp=ygUHbXJiZWFzdA=='">
+              <div class="L19">
+        <img class="I1"  src="file:///storage/emulated/0/Download/hq720 (4).webp" style="width:100%; object-fit:contain;"> 
+          <p class="F1">27:25</p>
+              </div>
+         <div class="KL3">
+             <div>
+        <img class="KI" src="file:///storage/emulated/0/Projects/Images/channel-6.jpeg">
+             </div>
+        <div class="K99" >
+        <p class="K5" style="margin-bottom:0px;"> If you Survive 100 days in a Nuclear Bunker, You Win $10M</p>
+        <p class="K6" style="margin-top:2px;"> Mrbeast&check;</p>
+        <p class="K7"> 165&period;4M veiws 3 weeks ago</p>
+        </div>
+         </div>     
+          </div> 
+        </div>
+       
+       <div style="display:none;">
+           
+       <div class="H0" onclick="location.href=''">
+    
+    <input type="checkbox" 
+    id="zoom_image">
+    <label for="zoom_image">
+    
+        <img class="H1" src="file:///storage/emulated/0/Projects/Images/images.jpeg">
+           
+    </label>
+
+        
+           
+       </div>
+       
+       <div class="H0">
+         <img  class="V9" src="file:///storage/emulated/0/Projects/Images/IMG-20240328-WA0002.jpg">
+       </div>
+                  
+       </div>
+       <div style="display:flex;
+       justify-content:center;
+        align-items:center;">
+        
+     
+         <video controls autoplay loop muted hidden="" width="500px" height="200px" >
+    <source src="file:///storage/emulated/0/Projects/Videos/screen-20240210-192424.mp4">
+         </video>
+       
+      <table class="Table-1-Edit">
+          <tr>
+<td class="V1" onclick="location.href='https://chatgpt.com'"  >Row1</td>
+            <td style="border:solid;">Row2</td>
+            
+          </tr>
+          <tr>
+              <th>K1</th>
+              <th style="">K2</th>
+          </tr>
+      </table>
+           
+       
+        
+          
+       </div>
+<style>
+    .Table-1-Edit{
+        border:solid;
+        display: none;
+    }
+    
+    .V1:active{
+        transform: scale(1.5);
+        transition: 2s ease;
+    }
+</style>
+     <style>
+     
+    .H0{
+         text-align: center;
+    margin: auto;
+        margin-top:100px;
+    }
+    .H1{
+        width:300px;
+        object-fit:contain;
+        cursor:zoom-in;
+    }
+    input[type="checkbox"]
+    {
+        display:none;
+    }
+    
+    input[type="checkbox"]:checked~label>img{
+        transform: scale(1.5);
+        cursor: zoom-out;
+        transition:2s ease;
+    }
+    
+    input[type="checkbox"]:onclick:unchecked~label>img{
+        transform:scale(1);
+        transition: 2s ease;
+    }
+    
+    .V9{
+        width:300px;
+        object-fit:contain;
+        transition: transform 2s ease;
+    }
+    .V9:hover{
+        transform: scale(1.5) ;
+        transition: 2s ease;
+    }
+    .V9:active{
+        
+        transition: 2s ease;
+    }
+     </style> 
+     
+     <div class="Ab1" style="display:none;">
+         <div class="Ab2">
+        <img class="R1" src="file:///storage/emulated/0/Pictures/Kc-266__all_set211_nomo_shirtfolded_front7__2023-6-26-13-5-46__2730X4096_6e4dbcb9-d5e6-4517-9d78-a43daa72db63.jpg">
+        <div class="R2">
+        <p class="R3">20% off</p>
+        </div>
+         </div>
+     </div>
+       <style>
+         .R1{
+             width:50px;
+             position:absolute;
+             
+             
+        
+         }
+         .Ab1{
+            border-style:solid;
+            border-width:1px;
+            
+         }
+         .R3{
+             position:relative;
+             display:inline-block;
+             z-index:100;
+             font-family:Roboto;
+             font-size:10px;
+         }
+       </style>
+      </body> 
+</HTML>
